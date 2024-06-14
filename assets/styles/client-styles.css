@@ -1,0 +1,141 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+/* Estilos base */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: cursive;
+    margin-top: -5px;
+    background-color: rgb(39, 232, 151);
+    padding: 5px;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 25px;
+}
+
+p {
+    font-family: cursive;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+a {
+    color: white;
+    background-color: #2471A3;
+    padding: 5px 30px;
+    margin: 8px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+a:hover {
+    transform: translateY(-8px);
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.7);
+}
+img {
+    width: 100%;
+    height: 800px;
+    margin-top: 0;
+    z-index: 0;
+}
+
+/* Componentes y módulos */
+nav {
+    padding: 10px;
+    z-index: 1;
+    right: 1px;
+    position: absolute;
+    top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+aside {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+section {
+    display: inline-block;
+    margin-top: 45px;
+    padding-bottom: 50px;
+    position: absolute;
+    text-indent: 20px;
+    
+}
+
+.info {
+    padding: 15px;
+}
+
+.a-main {
+    background-color: #399b23;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    border: 2px solid black;
+    margin-top: 100px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(37, 89, 149);
+}
+
+#p-footer {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+#p-footer:hover {
+    transform: scale(1.1);
+}
+/* IDs y selectores específicos */
+#logo {
+    height: 200px;
+    width: 200px;
+}
+
+#mail-hockey {
+    all: unset;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
